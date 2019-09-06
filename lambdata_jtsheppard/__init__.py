@@ -16,7 +16,7 @@ def train_validation_test_split(
     
     return X_train, X_val, X_test, y_train, y_val, y_test
 
-    def stringer(df,filename):
+def stringer(df,filename):
     '''Takes in df and filename converts ID column to string, creates con_id using stringified id and filename
     returns returns id column to int '''
     dfc = df.copy()
